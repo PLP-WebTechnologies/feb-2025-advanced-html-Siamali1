@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>plp web assignment</title>
+        <style>
+            ol {
+                 list-style-type: lower-roman;
+            }
+            table {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                width: 100%;
+                border-collapse: collapse;
+            }
+            td, th {
+                text-align: left;
+                border: 1px solid black;
+                padding: 8px;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>School  fruits menu</h1>
+        <ol>
+            <li>Bananas</li>
+            <li>Apples</li>
+            <li>Oranges</li>
+            <li>Pineapples</li>
+            <li>Watermellon</li>
+        </ol>
+        <h1>School main meal menu</h1>
+       <img src="https://images.pexels.com/photos/28241670/pexels-photo-28241670/free-photo-of-a-person-holding-a-fork-over-a-pizza-and-salad.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                   alt="https://www.pexels.com/" style="width:500px; height:500px;">
+        
+       <h2>School Chef's details.</h2>
+       <table> 
+           <tr>
+               <th>Name</th>
+               <th>Address</th>
+               <th>Mobile</th>
+               <th>Emails</th>
+            </tr>
+         
+            <tr>
+               <td>Siam Ali</td>
+               <td>Komarock phase 4</td>
+               <td>0759071827</td>
+               <td>mwatisiam2000@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>Ali kilonzi</td>
+                <td>Pangani phase 2</td>
+                <td>0722353825</td>
+                <td>alimwati@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>Stark Wanyoike</td>
+                <td>Kahawa sukari phase 5</td>
+                <td>0743100847</td>
+                <td>Wanyoikeian@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>Latifah Ali</td>
+                <td>Umoja phase 8</td>
+                <td>0714589001</td>
+                <td>latifahmwati@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>Corazon Musyimi</td>
+                <td>Kileleshwa house phase 3</td>
+                <td>0796831142</td>
+                <td>corazon1999@gmail.com</td>
+            </tr>
+
+        </table>
+
+        <h2>School meal application form</h2>
+        <form>
+            <label for="fname">Fullname:</label>
+            <input type="text" name="fname" placeholder="enter your name" required>
+            <br><br>
+
+            <label for="email">Email address:</label>
+            <input type="email" name="email" placeholder="school@kabarak.ac.ke" maxlength="30" required>
+            <br><br>
+
+            <label for="pass">Password:</label>
+            <input type="password" name="pass" maxlength="20" minlength="8" required>
+            <br><br>
+
+            <label for="date">Date of application:</label>
+            <input type="date" name="date" required>
+            <br><br>
+
+            <label for="meal preference">Select meal preference:</label>
+            <select name="meal preference">
+                <option value="">Select meal preference</option>
+                <option value="vegetarian">Vegetarian</option>
+                <option value="vegan">Vegan</option>
+                <option value="Non-Vegetarian">Non-Vegetarian</option>
+            </select>
+             <br><br>
+             
+            <fieldset>
+                <p1>Choose a meal size</p1><br>
+                <input type="radio" name="meal size">
+                <label for="meal size">Small</label>
+                <br>
+                <input type="radio" name="meal size">
+                <label for="meal size">Medium</label>
+                <br>
+                <input type="radio" name="meal size">
+                <label for="meal size">Large</label>
+            </fieldset>
+             <br><br>
+
+            <fieldset>
+              <p1>Additional preferences(Select if applicable)</p1><br>
+              <input type="checkbox" name="gluten_free" value="Gluten-Free">
+              <label for="gluten_free">Gluten-Free</label><br>
+              <input type="checkbox" name="nut_free" value="Nut-Free">
+              <label for="nut_free">Nut-Free</label><br>
+              <input type="checkbox" name="lactose_free" value="Lactose-Free">
+              <label for="lactose_free">Lactose-Free</label>
+            </fieldset>
+            <br><br>
+
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
